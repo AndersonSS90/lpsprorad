@@ -1,0 +1,108 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin:0;
+  background:#ffffff;
+  color:#1B1B1B;
+}
+
+header{
+  background:#ffffff;
+  padding:20px 10%;
+  border-bottom:1px solid #E0E6F2;
+}
+
+header img{
+  max-height:70px;
+}
+
+.hero{
+  display:grid;
+  grid-template-columns:2fr 1fr;
+  background:#E9F0FB;
+  padding:20px 10%;
+}
+
+.hero h1{
+  font-size:36px;
+  max-width:850px;
+  color:#2E4F8C;
+}
+
+.hero p{
+  font-size:18px;
+  max-width:900px;
+  line-height:1.6;
+  margin-top:15px;
+  color:#333;
+}
+
+.btn{
+  background:#D84A4F;
+  color:white;
+  padding:18px 30px;
+  border-radius:6px;
+  font-size:18px;
+  text-decoration:none;
+  display:inline-block;
+  margin-top:25px;
+  transition:0.3s;
+}
+
+.btn:hover{
+  background:#c23a3f;
+}
+
+.benefits{
+  display:grid;
+  grid-template-columns:1fr 2fr;
+  padding:20px 10%;
+}
+
+.benefits h2{
+  font-size:30px;
+  color:#2E4F8C;
+}
+
+.benefits ul{
+  margin-top:20px;
+  font-size:18px;
+  line-height:1.9;
+  color:#333;
+}
+
+.highlight{
+  color:#2E4F8C;
+  font-weight:bold;
+}
+
+.cta{
+  background:#F3F6FF;
+  padding:70px 10%;
+  text-align:center;
+}
+
+.cta h2{
+  color:#2E4F8C;
+  font-size:30px;
+}
+
+.cta p{
+  max-width:850px;
+  margin:auto;
+  font-size:19px;
+  margin-top:10px;
+}
+
+footer{
+  background:#D84A4F;
+  color:white;
+  padding:25px;
+  text-align:center;
+  font-size:15px;
+}
+
+section img{
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+}
