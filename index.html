@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<title>SPR PRO RAD – Proteção Radiológica Profissional</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>SPR PRO RAD – Proteção Radiológica Profissional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TZ52LDDV');</script>
-<!-- End Google Tag Manager -->
+  <link rel="stylesheet" href="style.css">
 
-<link ref="stylesheet" href="./style.css" />
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-TZ52LDDV');</script>
+  <!-- End Google Tag Manager -->
 
 </head>
 
@@ -32,7 +32,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <section class="hero">
 
   <div class="hero-content">
-    <h1>Precisas de segurança radiológica real? O SPR da PRO RAD resolve.</h1>
+    <h1>Precisas de segurança radiológica real? O Serviço de Proteção Radiológica da PRO RAD resolve.</h1>
     
     <p>
       Muitos serviços cumprem apenas “o básico”. A PRO RAD vai além:
@@ -41,7 +41,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       sem dor de cabeça e sem sustos na fiscalização.
     </p>
     
-    <a href="https://wa.me/5541999999999" class="btn">
+    <a href="#cta" class="btn">
       👉 Falar com Especialista no WhatsApp
     </a>
   </div>
@@ -67,7 +67,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>✔ <span class="highlight">Monitoramento contínuo da tua operação</span></li>
       <li>✔ <span class="highlight">Orientação simples, clara e prática</span></li>
       <li>✔ <span class="highlight">Prevenção real de autuações e problemas</span></li>
-      <li>✔ <span class="highlight">Mais de 40 anos de experiência em radioproteção</span></li>
+      <li>✔ <span class="highlight">Mais de 50 anos de experiência em radioproteção</span></li>
     </ul>
 
     <p style="max-width:850px; font-size:18px;">
@@ -79,7 +79,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<section class="cta">
+<section id="cta" class="cta">
 
   <h2>Quer segurança e tranquilidade na tua operação?</h2>
 
@@ -88,7 +88,42 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     às exigências legais.
   </p>
 
-  <a href="https://wa.me/5541999999999" class="btn">
+  <div class="inputs">
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome">
+    
+    <label for="email">Email</label>
+    <input type="text" name="email" id="email" placeholder="meuemail@exemplo.com">
+    
+    <label for="local-radiacao">Área de Atuação</label>
+    <select id="local-radiacao" name="local-radiacao">
+      <option value="">Selecione o local</option>
+      <option value="hospitais">Hospitais</option>
+      <option value="clinicas-odontologicas">Clínicas odontológicas</option>
+      <option value="industrias">Indústrias (geral)</option>
+      <option value="clinicas-laboratorios">Clínicas e laboratórios</option>
+      <option value="universidades">Universidades e escolas técnicas</option>
+      <option value="obras-end">Obras e empresas de ensaio não destrutivo</option>
+      <option value="agroindustrias">Agroindústrias</option>
+      <option value="portos-logistica">Portos, aeroportos e logística</option>
+      <option value="fontes-seladas">Empresas com fontes seladas isoladas</option>
+    </select>
+    
+    <label for="qtOrigens">Origens de Radiação (Equipamentos, Fontes Seladas e Não Seladas)</label>
+    <select id="qtd-fontes" name="qtd-fontes">
+      <option value="">Selecione a quantidade</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3-5">3 a 5</option>
+      <option value="6-10">6 a 10</option>
+      <option value="11-15">11 a 15</option>
+      <option value="16-20">16 a 20</option>
+      <option value="21-30">21 a 30</option>
+      <option value="31-40">31 a 40</option>
+    </select>
+  </div>
+
+  <a id="proposta" class="btn">
     👉 Solicitar Proposta Agora
   </a>
 
@@ -96,9 +131,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 <footer>
-  PRO RAD – É Proteção Radiológica | Referência em radioproteção há mais de 40 anos
+  PRO RAD – É Proteção Radiológica | Referência em radioproteção há mais de 50 anos
 </footer>
 
-<script src="./script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
