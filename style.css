@@ -160,7 +160,7 @@ header img {
 =========================== */
 .cta {
   background: var(--bg-light);
-  padding: 5rem 1.25rem;
+  padding: 1.25rem 1.25rem;
   text-align: center;
 }
 
@@ -221,7 +221,7 @@ footer {
 .hero img,
 .benefits img {
   width: 100%;
-  max-width: 500px;
+  max-width: 400px;
   display: block;
   aspect-ratio: 3 / 4;
   object-fit: cover;
